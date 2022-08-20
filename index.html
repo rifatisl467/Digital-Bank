@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="h-14 bg-gradient-to-r from-blue-600 to-sky-500"></body>
+
+<header>
+    <h1 class="text-8xl font-bold text-center text-zinc-200 my-20">
+        Digital <span class="text-blue-900">Bank</span>
+    </h1>
+</header>
+<main>
+    <section class="bg-blue-900 w-2/5 mx-auto py-6 px-7 shadow-2xl shadow-stone-900 rounded-lg mt-12">
+        <h3 class="text-4xl text-white my-5">Please Log In</h3>
+        <div>
+            <input class="block my-6 w-3/5" id="user-id" type="email" placeholder="Email">
+            <input class="block my-6 w-3/5" id="user-password" type="password" placeholder="Password">
+            <button id="btn-log-in"
+                class="bg-violet-500 py-1 px-4 rounded-lg font-semibold hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ...">
+                Log In
+            </button>
+        </div>
+    </section>
+</main>
+<script src="js/login.js"></script>
+</body>
+
+</html>
